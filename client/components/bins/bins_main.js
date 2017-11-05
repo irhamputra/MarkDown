@@ -8,11 +8,14 @@ import BinsViewer from './bins_viewer';
 class BinsMain extends Component{
     render() {
 
-        if(!this.props.bin) { return <div>Loading...</div>; }
+        if(!this.props.bin) { return <div className="text-hide">Loading...</div>; }
 
         return(
-            <div>
-                <h2 className="text-center">Bin Editor</h2>
+            <div className="container-fluid">
+                <br/>
+                <div className="col-xs-12">
+                    <h2>Bin Editor</h2>
+                </div>
                 <BinsEditor bin={this.props.bin}/>
                 <BinsViewer bin={this.props.bin}/>
             </div>

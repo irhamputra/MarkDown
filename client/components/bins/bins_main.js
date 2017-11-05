@@ -12,7 +12,7 @@ class BinsMain extends Component{
             <div className="container-fluid">
                 <br/>
                 <div className="col-xs-12">
-                    <h2>Bin Editor</h2>
+                    <h2>MarkDown Editor</h2>
                 </div>
                 <BinsEditor bin={this.props.bin}/>
                 <BinsViewer bin={this.props.bin}/>

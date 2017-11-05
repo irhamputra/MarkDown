@@ -5,6 +5,7 @@ class BinsShare extends Component {
         const email = this.refs.email.value;
 
         Meteor.call('bins.share', this.props.bin, email);
+        this.refs.email = '';
     }
 
     renderShareList() {

@@ -16,11 +16,11 @@ class Header extends Component {
             <nav className="nav navbar-inverse">
                 <div className="col-xs-12">
                     <div className="navbar-header">
-                        <Link to="/" className="navbar-brand">MarkBin</Link>
+                        <Link to="/" className="navbar-brand">MarkDown.io</Link>
                     </div>
                     <ul className="nav navbar-nav">
                         <li>
-                            <a href="#" onClick={this.onBinClick.bind(this)}>Create Bin</a>
+                            <a href="#" onClick={this.onBinClick.bind(this)}>Create Markdown</a>
                         </li>
                         <li>
                             <Accounts/>

@@ -95,6 +95,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/ejson_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/custom_models_for_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/ejson.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/cmstyle-tests.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/cmstyle.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/style.css" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/method_invocation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/namespace.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/utils.js" />
@@ -293,6 +296,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/ejson_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/custom_models_for_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.1.0/web.browser/ejson.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/cmstyle-tests.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/cmstyle.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/sgslo_cmstyle/0.0.1/web.browser/style.css" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/method_invocation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/namespace.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.3.0/web.browser/utils.js" />

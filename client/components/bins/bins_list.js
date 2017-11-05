@@ -14,7 +14,7 @@ class BinsList extends Component{
 
             return (
                 <li className="list-group-item" key={bin._id}>
-                    <Link to={url}>Bin #{bin._id}</Link>
+                    <Link to={url}>Bin id: {bin._id}</Link>
                     <span className="pull-right">
                         <button className="btn btn-danger" onClick={() => this.onBinRemove(bin)}>Remove</button>
                     </span>

@@ -13,7 +13,7 @@ const routes = (
             <App />
             <Switch>
                 <Route exact path="/" component={BinsList}/>
-                <Route path="/bins" component={BinsMain}/>
+                <Route path="/bins/:binId" component={BinsMain}/>
             </Switch>
         </div>
     </BrowserRouter>

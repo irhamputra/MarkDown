@@ -10,7 +10,6 @@ class BinEditor extends Component {
     render(){
         return(
             <div className="col-xs-6">
-                <h2>Bin Editor</h2>
                 <h4>Input Code</h4>
                 <CodeMirror
                     value={this.props.bin.content}

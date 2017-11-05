@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Accounts from './accounts';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
 
@@ -13,7 +14,7 @@ class Header extends Component {
         return(
             <nav className="nav navbar-inverse">
                 <div className="navbar-header">
-                    <a className="navbar-brand">MarkBin</a>
+                    <Link to="/" className="navbar-brand">MarkBin</Link>
                 </div>
                 <ul className="nav navbar-nav">
                     <li>

@@ -25,7 +25,7 @@ class BinsList extends Component{
 
     render(){
         return(
-            <div className="container">
+            <div>
                 <ul className="list-group">
                     {this.renderList()}
                 </ul>
